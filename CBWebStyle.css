@@ -113,7 +113,7 @@ nav {
 }
 
 .fixed-cycle-background-left {
-  background-image: url("CBImages/HerosJourneyBasic.png");
+  background-image: url("CBImages/HerosJourneyBasic.PNG");
   min-height: 750px;
   background-attachment: fixed;
   background-position: center;
@@ -133,7 +133,7 @@ nav {
 }
 
 .fixed-cycle-background-center {
-  background-image: url("CBImages/ThreeActStructureBasic.png");
+  background-image: url("CBImages/ThreeActStructureBasic.PNG");
   min-height: 750px;
   background-attachment: fixed;
   background-position: center;
@@ -153,7 +153,7 @@ nav {
 }
 
 .fixed-cycle-background-right {
-  background-image: url("CBImages/FichteanCurveBasic.png");
+  background-image: url("CBImages/FichteanCurveBasic.PNG");
   min-height: 750px;
   background-attachment: fixed;
   background-position: center;
