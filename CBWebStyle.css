@@ -1,0 +1,209 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: White;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  float: center;
+  transition: 0.2s;
+}
+
+li a:hover {
+  background-color: teal;
+  color: white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+}
+
+.fixed-background {
+  background-image: url("CBImages/book-158812_960_720.webp");
+  min-height: 750px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size:350%;
+  height: 200px;
+  line-height: 300px;
+}
+
+body {
+  background-color: #B3DEFD;
+}
+
+h1 {
+  font-family: Arial; 
+  font-size:300%; 
+  text-align: center; 
+  padding: 35px;
+}
+
+nav {
+  font-family: Arial; 
+}
+
+.mainBody {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:200%;
+  border: 1px solid black;
+  margin: 1px;
+  padding: 20px;
+  background-color: lightblue;
+  text-align: center;
+}
+
+.stageBody {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:200%;
+  border: 2px solid grey;
+  margin: 30px;
+  background-color: White;
+  padding: 10px;
+}
+
+.stageBody:hover {
+  background-color: #5f9ea0;
+  color: white;
+}
+
+.smallImage {
+  display: inline;
+  float: left;
+  width: 9%;
+  height: 9%;
+  padding: 1px;
+}
+
+.smallImageAlt {
+  display: inline;
+  float: right;
+  width: 9%;
+  height: 9%;
+  padding: 1px;
+}
+
+.fixed-cycle-background-left {
+  background-image: url("CBImages/HerosJourneyBasic.png");
+  min-height: 750px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size:5vw;
+  height: 200px;
+  line-height: 400px;
+  border: 1px solid black;
+  transition: 1s;
+}
+
+.fixed-cycle-background-left:hover {
+  background-image: none;
+  background-color: teal;
+  color: white;
+}
+
+.fixed-cycle-background-center {
+  background-image: url("CBImages/ThreeActStructureBasic.png");
+  min-height: 750px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size:5vw;
+  height: 200px;
+  line-height: 400px;
+  border: 1px solid black;
+  transition: 1s;
+}
+
+.fixed-cycle-background-center:hover {
+  background-image: none;
+  background-color: teal;
+  color: white;
+}
+
+.fixed-cycle-background-right {
+  background-image: url("CBImages/FichteanCurveBasic.png");
+  min-height: 750px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size:5vw;
+  height: 200px;
+  line-height: 400px;
+  border: 1px solid black;
+  transition: 1s;
+}
+
+.fixed-cycle-background-right:hover {
+  background-image: none;
+  background-color: teal;
+  color: white;
+}
+
+.row {
+  text-align: center;
+}
+
+.column {
+  display: inline-block;
+  width: 30.33%;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.footerColumn {
+  display: inline-block;
+  width: 50%;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: lightblue;
+  border: 1px solid #e7e7e7;
+  color: black;
+}
